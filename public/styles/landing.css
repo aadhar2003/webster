@@ -1,0 +1,42 @@
+.right{
+    margin-left: 820px;
+ }
+ .lul:hover{
+     border-radius: 25px;
+     background-color: lightgreen;
+ }
+ .sq{
+     background-color: black;
+     margin-top: 50px;
+     margin-left: 564px;
+     color: white;
+     position: absolute;
+     height: 100px;
+     width: 100px;
+     left: 550px;
+ }
+ .background-img{
+     margin-top: 40px;
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     z-index: -1;
+ }
+ .background-img{
+     transform: translateZ(-10px)scale(2);
+ }
+ .contain{
+     height: 100vh;
+     overflow-y: auto;
+     overflow-x: hidden;
+     perspective: 10px;   
+ }
+ .info{
+     margin-top: 150px;
+     max-width: 336px;
+     background-color: white;
+     position: relative;
+     margin-left: 468px;
+     padding-bottom: 30px;
+ }
